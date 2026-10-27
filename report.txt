@@ -1,0 +1,10 @@
+* 462a5bf (HEAD -> main) Add .gitignore
+* 16c33ae Add search test
+* 699179c Add search by name
+* 88dea68 Add Product model
+* 64feb34 Add README
+
+توضیحات:
+۱. git add تغییرات انتخاب‌شده را برای ثبت آماده می‌کند؛ git commit تغییرات آماده‌شده را در تاریخچهٔ مخزن ثبت می‌کند.
+۲. فایل .env نباید commit شود، چون ممکن است اطلاعات محرمانه مثل کلیدها و رمزها را در خود داشته باشد.
+۳. git diff تغییرات ثبت‌نشده در staging area را نشان می‌دهد؛ git diff --staged تغییراتی را نشان می‌دهد که با git add آمادهٔ commit شده‌اند.
