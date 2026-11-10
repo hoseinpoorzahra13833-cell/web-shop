@@ -9,3 +9,6 @@ def find_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]
 
 # Lab 2 commit A
+
+def apply_discount(price, percent):
+    return price * (100 - percent) /100
